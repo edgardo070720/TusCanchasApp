@@ -1,0 +1,100 @@
+.fondo {
+    background-image: url("../../assets/images/canchas/tuscanchasapp.png");
+
+}
+
+.btnm {
+    background-color: #5E17EB;
+
+}
+
+.btnw {
+    background-color: white;
+
+}
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+
+.card {
+    height: auto;
+    background-color: #efefef;
+    cursor: pointer;
+    transition: all 0.5s;
+    
+}
+
+.image img {
+    transition: all 0.2s
+}
+
+.card:hover .image img {
+    transform: scale(1.5)
+}
+
+.btn2 {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%
+}
+
+.name {
+    font-size: 22px;
+    font-weight: bold
+}
+
+.idd {
+    font-size: 14px;
+    font-weight: 600
+}
+
+.idd1 {
+    font-size: 12px
+}
+
+.number {
+    font-size: 22px;
+    font-weight: bold
+}
+
+.follow {
+    font-size: 12px;
+    font-weight: 500;
+    color: #444444
+}
+
+.btn1 {
+    height: 50px;
+    width: 150px;
+    border-radius: 10%;
+    background-color: #5E17EB;
+    color: white;
+    border-color: #5E17EB;
+}
+
+.text span {
+    font-size: 13px;
+    color: white;
+    font-weight: 500
+}
+
+.icons i {
+    font-size: 19px
+}
+
+hr .new1 {
+    border: 1px solid
+}
+
+.join {
+    font-size: 14px;
+    color: #5E17EB;
+    font-weight: bold
+}
+
+.date {
+    background-color: #ccc
+}

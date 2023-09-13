@@ -1,0 +1,93 @@
+<div class="container-fluid">
+    <div class="row flex-nowrap">
+        <div class="col-auto px-0">
+            <app-sidebar></app-sidebar>
+        </div>
+        <main class="col ps-md-2 pt-2">
+            <div class="row">
+                <div class="col-12">
+                    <!--Aquí comienza el contenido-->
+                    <section>
+                        <div class="container pt-5">
+                            <article class="card p-4 fondoColor2">
+                                <div class="row align-items-center">
+                                    <div class="col">
+                                        <h4 class="mb-0 text-white"> Ver Queja o Reclamo </h4>
+                                        <p class="mb-0 text-white-50">Visualiza aquí todas las quejas que los usuarios
+                                            te han hecho tus clientes...
+                                        </p>
+                                    </div>
+                                </div>
+                            </article>
+                        </div> <!-- container end.// -->
+                    </section>
+                    <section>
+                        <div class="container pt-5 py-5">
+                            <article class="card p-4 fondoColor">
+                                <div class="row gx-3 align-items-center">
+                                    <div class="col">
+                                        <h4 class="mb-0 text-black text-center">Consulta Todas las quejas y reclamos
+                                        </h4>
+                                        <hr>
+                                        <aside class="col-lg-4">
+                                            <label class="text-black" for="comboConsulta">Tipo de consulta</label>
+                                            <select class="form-control" id="comboConsulta">
+                                                <option>NIT empresa</option>
+                                                <option>Nombre Empresa A-Z</option>
+                                                <option>Nombre Empresa Z-A</option>
+                                            </select>
+                                        </aside>
+                                        <div class="text-end py-5">
+                                            <a href="#" class="btn btnm text-white text-end">Consultar</a>
+                                        </div>
+                                    </div>
+                                    <table
+                                        class="table table-light table-striped table-bordered text-center border-black">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">#</th>
+                                                <th scope="col">Id del Cliente</th>
+                                                <th scope="col">Correo Cliente</th>
+                                                <th scope="col">Nit de la Empresa</th>
+                                                <th scope="col">Nombre de la cancha</th>
+                                                <th scope="col">Estado</th>
+                                                <th scope="col">Ver</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>1003372121</td>
+                                                <td>Cristiano@portugal.com</td>
+                                                <td>1003376221</td>
+                                                <td>Cancha Edgar Renteria</td>
+                                                <td> <a class=" btn btn-success text-black" role="button">Realizado</a>
+                                                </td>
+                                                <td href="#"> <a class=" btn btn-dark text-black"
+                                                        [routerLink]="['/Ver Información Quejas O Reclamos Propietario']"
+                                                        role="button">Ver</a> </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">2</th>
+                                                <td>1003372121</td>
+                                                <td>Cristiano@portugal.com</td>
+                                                <td>1003376221</td>
+                                                <td>Cancha Edgar Renteria</td>
+                                                <td> <a class=" btn btn-success text-black" role="button">Realizado</a>
+                                                </td>
+                                                <td href="#"> <a class=" btn btn-dark text-black"
+                                                        [routerLink]="['/Ver Información Quejas O Reclamos Propietario']"
+                                                        role="button">Ver</a> </td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </article>
+                        </div> <!-- container end.// -->
+                    </section>
+                </div>
+            </div>
+        </main>
+    </div>
+</div>

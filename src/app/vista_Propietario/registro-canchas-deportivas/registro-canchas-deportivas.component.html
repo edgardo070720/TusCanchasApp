@@ -1,0 +1,145 @@
+<div class="container-fluid">
+    <div class="row flex-nowrap">
+        <div class="col-auto px-0">
+            <app-sidebar></app-sidebar>
+        </div>
+        <main class="col ps-md-2 pt-2">
+            <div class="row">
+                <div class="col-12">
+                    <!--Aquí termina el sidebar-->
+                    <section>
+                        <div class="container">
+                            <article class="card p-4 fondoColor">
+                                <div class="row align-items-center">
+                                    <div class="col">
+                                        <h4 class="mb-0 text-white">Registra tus productos</h4>
+                                        <p class="mb-0 text-white-50">Registra todas tus canchas deportivas y sacale el
+                                            mayor provecho...</p>
+                                    </div>
+                                </div>
+                            </article>
+                        </div> <!-- container end.// -->
+                    </section>
+                    <section class="section-intro pt-3 py-3">
+                        <div class="container">
+                            <div class="row gx-3">
+                                <aside class="col-lg-6">
+                                    <article class="card-banner h-100 fondo">
+                                        <div class="card-body">
+                                            <h2 class="mt-3 text-black text-center">Datos de la Cancha</h2>
+                                            <form>
+                                                <section class="section-intro pt-3">
+                                                    <div class="container">
+                                                        <div class="row gx-3">
+                                                            <aside class="col-lg-6">
+                                                                <label class="text-black" for="comboDocumento">Tipo de
+                                                                    Cancha Deportiva</label>
+                                                                <select class="form-control" id="comboDocumento">
+                                                                    <option>Fútbol</option>
+                                                                    <option>Tenis</option>
+                                                                    <option>Basketball</option>
+                                                                    <option>Atletismo</option>
+                                                                    <option>Beisbol</option>
+                                                                    <option>Otro</option>
+                                                                </select>
+                                                                <br>
+                                                                <label class="text-black" for="inputValor">Valor</label>
+                                                                <input type="number" min="1" class="form-control"
+                                                                    id="inputValor">
+                                                                <br>
+                                                                <label class="text-black"
+                                                                    for="inputCorreo">Correo</label>
+                                                                <input type="email" class="form-control"
+                                                                    id="inputCorreo">
+                                                                <br>
+                                                            </aside>
+                                                            <aside class="col-lg-6">
+                                                                <label class="text-black"
+                                                                    for="inputNombre">Nombre</label>
+                                                                <input type="text" class="form-control"
+                                                                    id="inputNombre">
+                                                                <br>
+                                                                <label class="text-black" for="inputHoras">Horas
+                                                                    Disponibles</label>
+                                                                <input type="number" min="1" class="form-control"
+                                                                    id="inputHoras">
+                                                                <br>
+                                                                <label class="text-black"
+                                                                    for="inputTelefono">Telefono</label>
+                                                                <input type="tel" min="1" class="form-control"
+                                                                    id="inputTelefono">
+                                                            </aside>
+                                                            <label class="text-black pt-4"
+                                                                for="inputDirección">Dirección</label>
+                                                            <div class="input-group mb-3">
+                                                                <input type="text" class="form-control"
+                                                                    id="inputDirección">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </section>
+                                            </form>
+                                        </div>
+                                    </article>
+                                </aside>
+                                <aside class="col-lg-6">
+                                    <article class="card-banner h-100 fondo">
+                                        <div class="card-body">
+                                            <h2 class="mt-3 text-black text-center">Información Adicional</h2>
+                                            <form>
+                                                <section class="section-intro pt-3">
+                                                    <div class="container">
+                                                        <div class="row gx-3">
+                                                            <label class="text-black pt-2" for="inputFoto1">Foto 1
+                                                                (Obligatorio)</label>
+                                                            <div class="input-group mb-3">
+                                                                <input type="file" class="form-control" id="inputFoto1">
+                                                                <label class="input-group-text"
+                                                                    for="inputFoto1">Cargar</label>
+                                                            </div>
+                                                            <br>
+                                                            <label class="text-black pt-2" for="inputFoto2">Foto 2
+                                                                (Opcional)</label>
+                                                            <div class="input-group mb-3">
+                                                                <input type="file" class="form-control" id="inputFoto2">
+                                                                <label class="input-group-text"
+                                                                    for="inputFoto2">Cargar</label>
+                                                            </div>
+                                                            <br>
+                                                            <label class="text-black pt-2" for="inputFoto3">Foto 3
+                                                                (Opcional)</label>
+                                                            <div class="input-group mb-3">
+                                                                <input type="file" class="form-control" id="inputFoto3">
+                                                                <label class="input-group-text"
+                                                                    for="inputFoto3">Cargar</label>
+                                                            </div>
+                                                            <br>
+                                                            <div class="form-outline pt-2">
+                                                                <label class="form-label text-black"
+                                                                    for="textAreaExample">Descripción</label>
+                                                                <textarea class="form-control" id="textAreaExample"
+                                                                    rows="4"
+                                                                    placeholder="Comparte aquí tu queja o reclamo..."></textarea>
+                                                            </div>
+                                                            <div class="d-flex justify-content-between mt-3">
+                                                                <div></div>
+                                                                <button type="button" class="btn btnm text-white">
+                                                                    Agregar <i
+                                                                        class="fas fa-long-arrow-alt-right ms-1"></i>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </section>
+                                            </form>
+                                        </div>
+                                    </article>
+                                </aside>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </main>
+    </div>
+</div>

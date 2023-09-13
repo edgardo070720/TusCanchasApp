@@ -1,0 +1,116 @@
+<div class="container-fluid">
+    <div class="row flex-nowrap">
+        <div class="col-auto px-0">
+            <app-sidebar-admin></app-sidebar-admin>
+        </div>
+        <main class="col ps-md-2 pt-2">
+            <div class="row">
+                <div class="col-12">
+                    <!--Aquí comienza el contenido-->
+                    <section>
+                        <div class="container pt-5">
+                            <article class="card p-4 fondoColor2">
+                                <div class="row align-items-center">
+                                    <div class="col">
+                                        <h4 class="mb-0 text-white"> Ver Queja o Reclamo Detalladamante </h4>
+                                        <p class="mb-0 text-white-50">Este es el motivo o reclamo del cliente...
+                                        </p>
+                                    </div>
+                                </div>
+                            </article>
+                        </div> <!-- container end.// -->
+                    </section>
+                    <section class="section-intro pt-3 py-3">
+                        <div class="container">
+                            <div class="row gx-3">
+                                <aside class="col-lg-6">
+                                    <article class="card-banner p-5 fondo">
+                                        <div style="max-width: 500px">
+                                            <h2 class="text-black text-center">Cancha de Atletismo Villa</h2>
+                                            <br>
+                                            <img src="assets\images\canchas\Atletismo.jpeg"
+                                                class="rounded mx-auto d-block" height="250">
+                                            <br>
+                                            <h4 class="text-black">Valor hora: $50.000 COP</h4>
+                                            <p> </p>
+                                            <h5 class="text-black">Descripción:</h5>
+                                            <p class="text-black">Cancha de atletismo ideal para todo tipo de deportes
+                                                atleticos</p>
+                                            <h5 class="text-black">Ubicación:</h5>
+                                            <p class="text-black">Villa Olimpica</p>
+                                        </div>
+                                    </article>
+                                </aside>
+                                <aside class="col-lg-6">
+                                    <article class="card-banner h-100 fondo">
+                                        <div class="card-body">
+                                            <h2 class="mt-3 text-black text-center">Quejas o Reclamos</h2>
+                                            <form>
+                                                <section class="section-intro pt-3">
+                                                    <div class="container">
+                                                        <div class="row gx-3">
+                                                            <aside class="col-lg-6">
+                                                                <label class="text-black" for="comboDocumento">Tipo de
+                                                                    Documento</label>
+                                                                <select class="form-control" id="comboDocumento">
+                                                                    <option>Tarjeta de identidad</option>
+                                                                    <option>Cedula de Ciudadania</option>
+                                                                    <option>Cedula de extranjero</option>
+                                                                </select>
+                                                                <br>
+                                                                <label class="text-black"
+                                                                    for="inputNombre">Nombre</label>
+                                                                <input type="text" class="form-control"
+                                                                    id="inputNombre">
+                                                                <br>
+                                                                <label class="text-black"
+                                                                    for="inputCorreo">Correo</label>
+                                                                <input type="email" class="form-control"
+                                                                    id="inputCorreo">
+                                                            </aside>
+                                                            <aside class="col-lg-6">
+                                                                <label class="text-black"
+                                                                    for="inputNumeroDocumento">Numero</label>
+                                                                <input type="number" class="form-control"
+                                                                    id="inputNumeroDocumento">
+                                                                <br>
+                                                                <label class="text-black"
+                                                                    for="inputApellido">Apellido</label>
+                                                                <input type="text" class="form-control"
+                                                                    id="inputApellido">
+                                                                <br>
+                                                                <label class="text-black"
+                                                                    for="inputTelefono">Telefono</label>
+                                                                <input type="number" class="form-control"
+                                                                    id="inputTelefono">
+                                                            </aside>
+                                                            <div class="form-outline pt-2">
+                                                                <label class="form-label text-black"
+                                                                    for="textAreaExample">Comentario</label>
+                                                                <textarea class="form-control" id="textAreaExample"
+                                                                    rows="4"
+                                                                    placeholder="Comparte aquí tu queja o reclamo..."></textarea>
+                                                            </div>
+                                                            <div class="d-flex justify-content-between mt-3">
+                                                                <div></div>
+                                                                <button type="button"
+                                                                    [routerLink]="['/Ver Quejas O Reclamos Admin']"
+                                                                    class="btn btnm text-white">
+                                                                    Volver <i class="fas fa-long-arrow-alt-right ms-1"></i>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </section>
+                                            </form>
+                                        </div>
+                                    </article>
+                                </aside>
+                            </div> <!-- row //end -->
+                        </div> <!-- container end.// -->
+                    </section>
+                </div>
+            </div>
+        </main>
+    </div>
+</div>

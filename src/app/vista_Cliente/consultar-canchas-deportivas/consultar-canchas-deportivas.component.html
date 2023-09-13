@@ -1,0 +1,94 @@
+<app-header></app-header>
+<section>
+  <div class="container pt-5 py-5">
+    <article class="card p-4 fondoColor">
+      <div class="row align-items-center">
+        <div class="row gx-3">
+          <h4 class="mb-0 text-black text-center">Consulta Todas tus reservas aquí</h4>
+          <hr>
+          <aside class="col-lg-4">
+            <label class="text-black" for="comboConsulta">Tipo de Consulta</label>
+            <select class="form-control" id="comboConsulta">
+              <option>Tarjeta de identidad</option>
+              <option>Cedula de Ciudadania</option>
+              <option>Cedula de extranjero</option>
+            </select>
+          </aside>
+          <aside class="col-lg-4">
+            <label class="text-black" for="inputNumeroDocumento">Numero</label>
+            <input type="number" class="form-control" id="inputNumeroDocumento">
+          </aside>
+          <div class="text-end py-4 col-lg-4">
+            <a href="#" class="btn btnm text-white text-end">Consultar</a>
+          </div>
+        </div>
+        <table class="table table-light table-striped table-bordered text-center border-black">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Nombre de la cancha</th>
+              <th scope="col">Dueño</th>
+              <th scope="col">Teléfono</th>
+              <th scope="col">Dirección</th>
+              <th scope="col">Fecha Reserva</th>
+              <th scope="col">Horas</th>
+              <th scope="col">Estado</th>
+              <th scope="col">Queja</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Cancha Edgar Renteria</td>
+              <td>Softball vallenato</td>
+              <td>3045493037</td>
+              <td>Villa Olimpica</td>
+              <td>10/12/2022</td>
+              <td>5</td>
+              <td href="#"> <a class=" btn btn-danger text-black" href="#" role="button">Pendiente</a> </td>
+              <td><img width="39" height="39" [routerLink]="['/Quejas o Reclamos']"
+                  src="assets/images/icons2/yellow-card.png"></td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Cancha Fútbol 11</td>
+              <td>Hernan</td>
+              <td>3118022879</td>
+              <td>Biblos</td>
+              <td>21/11/2022</td>
+              <td>2</td>
+              <td href="#"> <a class=" btn btn-success text-black" href="#" role="button">Cumplido</a> </td>
+              <td><img width="39" height="39" [routerLink]="['/Quejas o Reclamos']"
+                  src="assets/images/icons2/yellow-card.png"></td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Cancha Fútbol 11</td>
+              <td>Hernan</td>
+              <td>3118022879</td>
+              <td>Biblos</td>
+              <td>20/11/2022</td>
+              <td>4</td>
+              <td href="#"> <a class=" btn btn-success text-black" href="#" role="button">Cumplido</a> </td>
+              <td><img width="39" height="39" [routerLink]="['/Quejas o Reclamos']"
+                  src="assets/images/icons2/yellow-card.png"></td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td>Cancha Edgar Renteria</td>
+              <td>Softball vallenato</td>
+              <td>3045493037</td>
+              <td>Villa Olimpica</td>
+              <td>10/11/2022</td>
+              <td>2</td>
+              <td href="#"> <a class=" btn btn-success text-black" href="#" role="button">Cumplido</a> </td>
+              <td><img width="39" height="39" [routerLink]="['/Quejas o Reclamos']"
+                  src="assets/images/icons2/yellow-card.png"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </article>
+  </div> <!-- container end.// -->
+</section>
+<app-footer></app-footer>

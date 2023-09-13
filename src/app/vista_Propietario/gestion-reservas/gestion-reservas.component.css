@@ -1,0 +1,37 @@
+.btnm {
+    background-color: #5E17EB;
+
+}
+.fondoColor2 {
+    background-color: #1f1e1e;
+
+}
+.fondoColor {
+    background-color: #F5F5F5;
+
+}
+
+input{
+    background-color: white;
+}
+select{
+    background-color: white;
+}
+textarea{
+    background-color: white;
+}
+
+img{
+    cursor: pointer;
+}
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+    color: white;
+    border-color: white;
+}

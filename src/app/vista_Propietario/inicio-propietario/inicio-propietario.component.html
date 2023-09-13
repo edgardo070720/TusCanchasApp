@@ -1,0 +1,343 @@
+<div class="container-fluid">
+    <div class="row flex-nowrap">
+        <div class="col-auto px-0">
+            <app-sidebar></app-sidebar>
+        </div>
+        <main class="col ps-md-2 pt-2">
+            <div class="row">
+                <div class="col-12">
+                    <!--Aquí termina el sidebar-->
+                    <!-- ================ CANCHAS PROPIETARIO ================ -->
+                    <section>
+                        <div class="container pt-5">
+                            <article class="card p-4 fondoColor">
+                                <div class="row align-items-center">
+                                    <div class="col">
+                                        <h4 class="mb-0 text-white">Sección de tus productos</h4>
+                                        <p class="mb-0 text-white-50">Todas tus canchas deportivas se encuentran aquí...
+                                        </p>
+                                    </div>
+                                    <div class="col-auto"> <label class="text-white"
+                                            for="comboCategoria">Categorias</label>
+                                        <select class="form-control" id="comboCategoria">
+                                            <option>Todas</option>
+                                            <option>Futbol</option>
+                                            <option>Beibol</option>
+                                            <option>Basketball</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </article>
+                        </div> <!-- container end.// -->
+                    </section>
+                    <section class="padding-y">
+                        <div class="container">
+                            <header class="section-heading">
+                                <h3 class="section-title">Tus canchas</h3>
+                            </header>
+                            <div class="row">
+                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                    <figure class="card-product-grid">
+                                        <a [routerLink]="['/Modificar Cancha Deportiva']"
+                                            class="img-wrap rounded bg-gray-light">
+                                            <span class="topbar"> <span class="badge bg-danger"> New </span> </span>
+                                            <img height="250" class="mix-blend-multiply"
+                                                src="assets\images\canchas\Atletismo.jpeg">
+                                        </a>
+                                        <figcaption class="pt-2">
+                                            <a href="#" class="float-end btn btn-light btn-icon"> <i
+                                                    class="fa fa-heart"></i> </a>
+                                            <strong class="price">$50.000 COP</strong> <!-- price.// -->
+                                            <a [routerLink]="['/Modificar Cancha Deportiva']"
+                                                class="title text-truncate">Cancha de Atletismo
+                                                Villa</a>
+                                            <small class="text-muted">Villa Olimpica</small>
+                                        </figcaption>
+                                    </figure>
+                                </div> <!-- col end.// -->
+                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                    <figure class="card-product-grid">
+                                        <a href="#" class="img-wrap rounded bg-gray-light">
+                                            <span class="topbar"> <span class="badge bg-warning"> Offer </span> </span>
+                                            <img height="250" class="mix-blend-multiply"
+                                                src="assets\images\canchas\Futbol.jpg">
+                                        </a>
+                                        <figcaption class="pt-2">
+                                            <a href="#" class="float-end btn btn-light btn-icon"> <i
+                                                    class="fa fa-heart"></i> </a>
+                                            <strong class="price">$30.000 COP</strong> <!-- price.// -->
+                                            <a href="#" class="title text-truncate">Cancha de Futbol 5</a>
+                                            <small class="text-muted">La paz</small>
+                                        </figcaption>
+                                    </figure>
+                                </div> <!-- col end.// -->
+                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                    <figure class="card-product-grid">
+                                        <a href="#" class="img-wrap rounded bg-gray-light">
+                                            <img height="250" class="mix-blend-multiply"
+                                                src="assets\images\canchas\Beisbol.jpg">
+                                        </a>
+                                        <figcaption class="pt-2">
+                                            <a href="#" class="float-end btn btn-light btn-icon"> <i
+                                                    class="fa fa-heart"></i> </a>
+                                            <strong class="price">$70.000 COP</strong> <!-- price.// -->
+                                            <a href="#" class="title text-truncate">Cancha Edgar Renteria</a>
+                                            <small class="text-muted">Garupal</small>
+                                        </figcaption>
+                                    </figure>
+                                </div> <!-- col end.// -->
+                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                    <figure class="card-product-grid">
+                                        <a href="#" class="img-wrap rounded bg-gray-light">
+                                            <img height="250" class="mix-blend-multiply"
+                                                src="assets\images\canchas\Tenis.jpg">
+                                        </a>
+                                        <figcaption class="pt-2">
+                                            <a href="#" class="float-end btn btn-light btn-icon"> <i
+                                                    class="fa fa-heart"></i> </a>
+                                            <strong class="price">$60.000</strong> <!-- price.// -->
+                                            <a href="#" class="title text-truncate">Cancha Tenis Piso</a>
+                                            <small class="text-muted">Complejo de Tenis</small>
+                                        </figcaption>
+                                    </figure>
+                                </div> <!-- col end.// -->
+                            </div> <!-- row end.// -->
+                        </div> <!-- container end.// -->
+                    </section>
+                    <!-- ================ SECTION PRODUCTS END.// ================ -->
+                    <!-- ================ CANCHAS PROPIETARIO ================ -->
+                    
+                    <section class="padding-y">
+                        <div class="container">
+                            <header class="section-heading">
+                                <h3 class="section-title">Tus canchas</h3>
+                            </header>
+                            <div class="row">
+                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                    <figure class="card-product-grid">
+                                        <a [routerLink]="['/Modificar Cancha Deportiva']"
+                                            class="img-wrap rounded bg-gray-light">
+                                            <span class="topbar"> <span class="badge bg-danger"> New </span> </span>
+                                            <img height="250" class="mix-blend-multiply"
+                                                src="assets\images\canchas\Atletismo.jpeg">
+                                        </a>
+                                        <figcaption class="pt-2">
+                                            <a href="#" class="float-end btn btn-light btn-icon"> <i
+                                                    class="fa fa-heart"></i> </a>
+                                            <strong class="price">$50.000 COP</strong> <!-- price.// -->
+                                            <a [routerLink]="['/Modificar Cancha Deportiva']"
+                                                class="title text-truncate">Cancha de Atletismo
+                                                Villa</a>
+                                            <small class="text-muted">Villa Olimpica</small>
+                                        </figcaption>
+                                    </figure>
+                                </div> <!-- col end.// -->
+                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                    <figure class="card-product-grid">
+                                        <a href="#" class="img-wrap rounded bg-gray-light">
+                                            <span class="topbar"> <span class="badge bg-warning"> Offer </span> </span>
+                                            <img height="250" class="mix-blend-multiply"
+                                                src="assets\images\canchas\Futbol.jpg">
+                                        </a>
+                                        <figcaption class="pt-2">
+                                            <a href="#" class="float-end btn btn-light btn-icon"> <i
+                                                    class="fa fa-heart"></i> </a>
+                                            <strong class="price">$30.000 COP</strong> <!-- price.// -->
+                                            <a href="#" class="title text-truncate">Cancha de Futbol 5</a>
+                                            <small class="text-muted">La paz</small>
+                                        </figcaption>
+                                    </figure>
+                                </div> <!-- col end.// -->
+                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                    <figure class="card-product-grid">
+                                        <a href="#" class="img-wrap rounded bg-gray-light">
+                                            <img height="250" class="mix-blend-multiply"
+                                                src="assets\images\canchas\Beisbol.jpg">
+                                        </a>
+                                        <figcaption class="pt-2">
+                                            <a href="#" class="float-end btn btn-light btn-icon"> <i
+                                                    class="fa fa-heart"></i> </a>
+                                            <strong class="price">$70.000 COP</strong> <!-- price.// -->
+                                            <a href="#" class="title text-truncate">Cancha Edgar Renteria</a>
+                                            <small class="text-muted">Garupal</small>
+                                        </figcaption>
+                                    </figure>
+                                </div> <!-- col end.// -->
+                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                    <figure class="card-product-grid">
+                                        <a href="#" class="img-wrap rounded bg-gray-light">
+                                            <img height="250" class="mix-blend-multiply"
+                                                src="assets\images\canchas\Tenis.jpg">
+                                        </a>
+                                        <figcaption class="pt-2">
+                                            <a href="#" class="float-end btn btn-light btn-icon"> <i
+                                                    class="fa fa-heart"></i> </a>
+                                            <strong class="price">$60.000</strong> <!-- price.// -->
+                                            <a href="#" class="title text-truncate">Cancha Tenis Piso</a>
+                                            <small class="text-muted">Complejo de Tenis</small>
+                                        </figcaption>
+                                    </figure>
+                                </div> <!-- col end.// -->
+                            </div> <!-- row end.// -->
+                        </div> <!-- container end.// -->
+                    </section>
+                    <!-- ================ SECTION PRODUCTS END.// ================ -->
+                    <!-- ================ CANCHAS PROPIETARIO ================ -->
+                    
+                    <section class="padding-y">
+                        <div class="container">
+                            <header class="section-heading">
+                                <h3 class="section-title">Tus canchas</h3>
+                            </header>
+                            <div class="row">
+                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                    <figure class="card-product-grid">
+                                        <a [routerLink]="['/Modificar Cancha Deportiva']"
+                                            class="img-wrap rounded bg-gray-light">
+                                            <span class="topbar"> <span class="badge bg-danger"> New </span> </span>
+                                            <img height="250" class="mix-blend-multiply"
+                                                src="assets\images\canchas\Atletismo.jpeg">
+                                        </a>
+                                        <figcaption class="pt-2">
+                                            <a href="#" class="float-end btn btn-light btn-icon"> <i
+                                                    class="fa fa-heart"></i> </a>
+                                            <strong class="price">$50.000 COP</strong> <!-- price.// -->
+                                            <a [routerLink]="['/Modificar Cancha Deportiva']"
+                                                class="title text-truncate">Cancha de Atletismo
+                                                Villa</a>
+                                            <small class="text-muted">Villa Olimpica</small>
+                                        </figcaption>
+                                    </figure>
+                                </div> <!-- col end.// -->
+                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                    <figure class="card-product-grid">
+                                        <a href="#" class="img-wrap rounded bg-gray-light">
+                                            <span class="topbar"> <span class="badge bg-warning"> Offer </span> </span>
+                                            <img height="250" class="mix-blend-multiply"
+                                                src="assets\images\canchas\Futbol.jpg">
+                                        </a>
+                                        <figcaption class="pt-2">
+                                            <a href="#" class="float-end btn btn-light btn-icon"> <i
+                                                    class="fa fa-heart"></i> </a>
+                                            <strong class="price">$30.000 COP</strong> <!-- price.// -->
+                                            <a href="#" class="title text-truncate">Cancha de Futbol 5</a>
+                                            <small class="text-muted">La paz</small>
+                                        </figcaption>
+                                    </figure>
+                                </div> <!-- col end.// -->
+                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                    <figure class="card-product-grid">
+                                        <a href="#" class="img-wrap rounded bg-gray-light">
+                                            <img height="250" class="mix-blend-multiply"
+                                                src="assets\images\canchas\Beisbol.jpg">
+                                        </a>
+                                        <figcaption class="pt-2">
+                                            <a href="#" class="float-end btn btn-light btn-icon"> <i
+                                                    class="fa fa-heart"></i> </a>
+                                            <strong class="price">$70.000 COP</strong> <!-- price.// -->
+                                            <a href="#" class="title text-truncate">Cancha Edgar Renteria</a>
+                                            <small class="text-muted">Garupal</small>
+                                        </figcaption>
+                                    </figure>
+                                </div> <!-- col end.// -->
+                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                    <figure class="card-product-grid">
+                                        <a href="#" class="img-wrap rounded bg-gray-light">
+                                            <img height="250" class="mix-blend-multiply"
+                                                src="assets\images\canchas\Tenis.jpg">
+                                        </a>
+                                        <figcaption class="pt-2">
+                                            <a href="#" class="float-end btn btn-light btn-icon"> <i
+                                                    class="fa fa-heart"></i> </a>
+                                            <strong class="price">$60.000</strong> <!-- price.// -->
+                                            <a href="#" class="title text-truncate">Cancha Tenis Piso</a>
+                                            <small class="text-muted">Complejo de Tenis</small>
+                                        </figcaption>
+                                    </figure>
+                                </div> <!-- col end.// -->
+                            </div> <!-- row end.// -->
+                        </div> <!-- container end.// -->
+                    </section>
+                    <!-- ================ SECTION PRODUCTS END.// ================ -->
+                    <!-- ================ CANCHAS PROPIETARIO ================ -->
+                    
+                    <section class="padding-y">
+                        <div class="container">
+                            <header class="section-heading">
+                                <h3 class="section-title">Tus canchas</h3>
+                            </header>
+                            <div class="row">
+                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                    <figure class="card-product-grid">
+                                        <a [routerLink]="['/Modificar Cancha Deportiva']"
+                                            class="img-wrap rounded bg-gray-light">
+                                            <span class="topbar"> <span class="badge bg-danger"> New </span> </span>
+                                            <img height="250" class="mix-blend-multiply"
+                                                src="assets\images\canchas\Atletismo.jpeg">
+                                        </a>
+                                        <figcaption class="pt-2">
+                                            <a href="#" class="float-end btn btn-light btn-icon"> <i
+                                                    class="fa fa-heart"></i> </a>
+                                            <strong class="price">$50.000 COP</strong> <!-- price.// -->
+                                            <a [routerLink]="['/Modificar Cancha Deportiva']"
+                                                class="title text-truncate">Cancha de Atletismo
+                                                Villa</a>
+                                            <small class="text-muted">Villa Olimpica</small>
+                                        </figcaption>
+                                    </figure>
+                                </div> <!-- col end.// -->
+                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                    <figure class="card-product-grid">
+                                        <a href="#" class="img-wrap rounded bg-gray-light">
+                                            <span class="topbar"> <span class="badge bg-warning"> Offer </span> </span>
+                                            <img height="250" class="mix-blend-multiply"
+                                                src="assets\images\canchas\Futbol.jpg">
+                                        </a>
+                                        <figcaption class="pt-2">
+                                            <a href="#" class="float-end btn btn-light btn-icon"> <i
+                                                    class="fa fa-heart"></i> </a>
+                                            <strong class="price">$30.000 COP</strong> <!-- price.// -->
+                                            <a href="#" class="title text-truncate">Cancha de Futbol 5</a>
+                                            <small class="text-muted">La paz</small>
+                                        </figcaption>
+                                    </figure>
+                                </div> <!-- col end.// -->
+                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                    <figure class="card-product-grid">
+                                        <a href="#" class="img-wrap rounded bg-gray-light">
+                                            <img height="250" class="mix-blend-multiply"
+                                                src="assets\images\canchas\Beisbol.jpg">
+                                        </a>
+                                        <figcaption class="pt-2">
+                                            <a href="#" class="float-end btn btn-light btn-icon"> <i
+                                                    class="fa fa-heart"></i> </a>
+                                            <strong class="price">$70.000 COP</strong> <!-- price.// -->
+                                            <a href="#" class="title text-truncate">Cancha Edgar Renteria</a>
+                                            <small class="text-muted">Garupal</small>
+                                        </figcaption>
+                                    </figure>
+                                </div> <!-- col end.// -->
+                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                    <figure class="card-product-grid">
+                                        <a href="#" class="img-wrap rounded bg-gray-light">
+                                            <img height="250" class="mix-blend-multiply"
+                                                src="assets\images\canchas\Tenis.jpg">
+                                        </a>
+                                        <figcaption class="pt-2">
+                                            <a href="#" class="float-end btn btn-light btn-icon"> <i
+                                                    class="fa fa-heart"></i> </a>
+                                            <strong class="price">$60.000</strong> <!-- price.// -->
+                                            <a href="#" class="title text-truncate">Cancha Tenis Piso</a>
+                                            <small class="text-muted">Complejo de Tenis</small>
+                                        </figcaption>
+                                    </figure>
+                                </div> <!-- col end.// -->
+                            </div> <!-- row end.// -->
+                        </div> <!-- container end.// -->
+                    </section>
+                    <!-- ================ SECTION PRODUCTS END.// ================ -->
+                </div>
+            </div>
+        </main>
+    </div>
+</div>

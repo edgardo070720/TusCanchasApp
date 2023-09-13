@@ -1,0 +1,100 @@
+<app-header></app-header>
+<section class="section-intro pt-3 py-3">
+    <div class="container">
+        <div class="row gx-3">
+            <aside class="col-lg-6">
+                <article class="card-banner h-100 fondo">
+                    <div class="card-body">
+                        <h2 class="mt-3 text-black text-center">Datos Personales</h2>
+                        <form>
+                            <section class="section-intro pt-3">
+                                <div class="container">
+                                    <div class="row gx-3">
+                                        <aside class="col-lg-6">
+                                            <label class="text-black" for="comboDocumento">Tipo de Documento</label>
+                                            <select class="form-control" id="comboDocumento">
+                                                <option>Tarjeta de identidad</option>
+                                                <option>Cedula de Ciudadania</option>
+                                                <option>Cedula de extranjero</option>
+                                            </select>
+                                            <br>
+                                            <label class="text-black" for="inputNombre">Nombre</label>
+                                            <input type="text" class="form-control" id="inputNombre">
+                                            <br>
+                                            <label class="text-black" for="inputCorreo">Correo</label>
+                                            <input type="email" class="form-control" id="inputCorreo">
+                                            <br>
+                                            <label class="text-black" for="inputUsuario">Usuario</label>
+                                            <input type="text" class="form-control" id="inputUsuario">
+                                        </aside>
+                                        <aside class="col-lg-6">
+                                            <label class="text-black" for="inputNumeroDocumento">Numero</label>
+                                            <input type="number" min="1" class="form-control" id="inputNumeroDocumento">
+                                            <br>
+                                            <label class="text-black" for="inputApellido">Apellido</label>
+                                            <input type="text" class="form-control" id="inputApellido">
+                                            <br>
+                                            <label class="text-black" for="inputTelefono">Telefono</label>
+                                            <input type="tel" min="1" class="form-control" id="inputTelefono">
+                                            <br>
+                                            <label class="text-black" for="inputContraseña">Contraseña</label>
+                                            <input type="password" class="form-control" id="inputContraseña">
+                                            <span id="passwordHelpInline" class="form-text">
+                                                De 8 a 20 caracteres.
+                                            </span>
+                                            <br>
+                                            <label class="text-black" for="inputConfirmarContraseña">Confirmar
+                                                Contraseña</label>
+                                            <input type="password" class="form-control" id="inputConfirmarContraseña">
+                                        </aside>
+                                    </div>
+                                </div>
+                            </section>
+                        </form>
+                    </div>
+                </article>
+            </aside>
+            <aside class="col-lg-6">
+                <article class="card-banner h-100 fondo">
+                    <div class="card-body">
+                        <h2 class="mt-3 text-black text-center">Datos de la empresa</h2>
+                        <form>
+                            <section class="section-intro pt-3">
+                                <div class="container">
+                                    <div class="row gx-3">
+                                        <aside class="col-lg-6">
+                                            <label class="text-black" for="inputNit">NIT de la empresa</label>
+                                            <input type="number" min="1" class="form-control" id="inputNit">
+                                            <br>
+                                            <label class="text-black" for="inputCorreoEmpresa">Correo</label>
+                                            <input type="email" class="form-control" id="inputCorreoEmpresa">
+                                        </aside>
+                                        <aside class="col-lg-6">
+                                            <label class="text-black" for="inputNombre">Nombre</label>
+                                            <input type="text" class="form-control" id="inputNombre">
+                                            <br>
+                                            <label class="text-black" for="inputTelefono">Telefono</label>
+                                            <input type="tel" min="1" class="form-control" id="inputTelefono">
+                                        </aside>
+                                        <label class="text-black pt-4" for="inputDirección">Dirección</label>
+                                        <div class="input-group mb-3">
+                                            <input type="text" class="form-control" id="inputDirección">
+                                        </div>
+
+                                        <div class="d-flex justify-content-between mt-3">
+                                            <div></div>
+                                            <button type="button" class="btn btnm text-white">
+                                                Enviar <i class="fas fa-long-arrow-alt-right ms-1"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </form>
+                    </div>
+                </article>
+            </aside>
+        </div>
+    </div>
+</section>
+<app-footer></app-footer>

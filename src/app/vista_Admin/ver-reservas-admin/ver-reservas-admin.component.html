@@ -1,0 +1,123 @@
+<div class="container-fluid">
+    <div class="row flex-nowrap">
+        <div class="col-auto px-0">
+            <app-sidebar-admin></app-sidebar-admin>
+        </div>
+        <main class="col ps-md-2 pt-2">
+            <div class="row">
+                <div class="col-12">
+                    <!--Aquí comienza el contenido-->
+                    <section>
+                        <div class="container pt-5">
+                            <article class="card p-4 fondoColor2">
+                                <div class="row align-items-center">
+                                    <div class="col">
+                                        <h4 class="mb-0 text-white"> Ver reservas</h4>
+                                        <p class="mb-0 text-white-50">Visualiza aquí todas las reservas que han realizado todos los clientes de Tus Canchas App...</p>
+                                    </div>
+                                </div>
+                            </article>
+                        </div> <!-- container end.// -->
+                    </section>
+                    <section>
+                        <div class="container pt-5 py-5">
+                            <article class="card p-4 fondoColor">
+                                <div class="row align-items-center">
+                                    <div class="row gx-3">
+                                        <h4 class="mb-0 text-black text-center">Consulta Todas tus reservas aquí</h4>
+                                        <hr>
+                                        <aside class="col-lg-4">
+                                            <label class="text-black" for="comboConsulta">Orden de Reserva</label>
+                                            <select class="form-control" id="comboConsulta">
+                                                <option>Todos</option>
+                                                <option>Cumplidos</option>
+                                                <option>Pendientes</option>
+                                                <option>Recientes - Antiguos</option>
+                                                <option>Antiguos - Recientes</option>
+                                            </select>
+                                        </aside>
+                                        <div class="col-lg-8 text-end py-4">
+                                            <a href="#" class="btn btnm text-white text-end">Consultar</a>
+                                        </div>
+                                    </div>
+                                    <table
+                                        class="table table-light table-striped table-bordered text-center border-black">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">#</th>
+                                                <th scope="col">Id Cliente</th>
+                                                <th scope="col">Correo Cliente</th>
+                                                <th scope="col">Nit Empresa</th>
+                                                <th scope="col">Nombre de la cancha</th>
+                                                <th scope="col">Fecha Reserva</th>
+                                                <th scope="col">Horas</th>
+                                                <th scope="col">Valor pago</th>
+                                                <th scope="col">No. Referencia de pago</th>
+                                                <th scope="col">Estado</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>1003376252</td>
+                                                <td>bjvargas@gmail.com</td>
+                                                <td>890337442</td>
+                                                <td>Cancha Edgar Renteria</td>
+                                                <td>10/12/2022</td>
+                                                <td>5</td>
+                                                <td>350000</td>
+                                                <td>777120</td>
+                                                <td href="#"> <a class=" btn btn-danger text-black" href="#"
+                                                        role="button">Pendiente</a> </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">2</th>
+                                                <td>1003376252</td>
+                                                <td>Cancha Fútbol 5</td>
+                                                <td>30000</td>
+                                                <td>3118022879</td>
+                                                <td>21/11/2022</td>
+                                                <td>2</td>
+                                                <td>60000</td>
+                                                <td>100227612</td>
+                                                <td href="#"> <a class=" btn btn-success text-black" href="#"
+                                                        role="button">Cumplido</a> </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">3</th>
+                                                <td>1003376252</td>
+                                                <td>Cancha de Atletismo Villa</td>
+                                                <td>50000</td>
+                                                <td>3118022879</td>
+                                                <td>20/11/2022</td>
+                                                <td>4</td>
+                                                <td>200000</td>
+                                                <td>5121212</td>
+                                                <td href="#"> <a class=" btn btn-success text-black" href="#"
+                                                        role="button">Cumplido</a> </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">4</th>
+                                                <td>1003376252</td>
+                                                <td>Cancha Edgar Renteria</td>
+                                                <td>70000</td>
+                                                <td>3045493037</td>
+                                                <td>10/11/2022</td>
+                                                <td>2</td>
+                                                <td>140000</td>
+                                                <td>5007001</td>
+                                                <td href="#"> <a class=" btn btn-success text-black" href="#"
+                                                        role="button">Cumplido</a> </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </article>
+                        </div> <!-- container end.// -->
+                    </section>
+                    <!--Aquí termina el contenido-->
+                </div>
+            </div>
+        </main>
+    </div>
+</div>

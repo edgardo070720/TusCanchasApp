@@ -1,0 +1,22 @@
+.fondo {
+    background-image: url("../../assets/images/canchas/tuscanchasapp.png");
+
+}
+
+.btnm {
+    background-color: #5E17EB;
+
+}
+
+.fondoColor {
+    background-color: #1f1e1e;
+
+}
+
+.image img {
+    transition: all 0.2s
+}
+
+.card:hover .image img {
+    transform: scale(1.5)
+}

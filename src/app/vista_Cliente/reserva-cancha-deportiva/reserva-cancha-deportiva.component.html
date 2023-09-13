@@ -1,0 +1,194 @@
+<app-header></app-header>
+<!-- ================ SECTION INTRO ================ -->
+<section class="section-intro pt-3">
+    <div class="container">
+        <div class="row gx-3">
+            <aside class="col-lg-6">
+                <article class="card-banner p-5 fondo">
+                    <div style="max-width: 500px">
+                        <h2 class="text-black text-center">Cancha de Atletismo Villa</h2>
+                        <br>
+                        <img src="assets\images\canchas\Atletismo.jpeg" class="rounded mx-auto d-block" height="250">
+                        <br>
+                        <h4 class="text-black">Valor hora: $50.000 COP</h4>
+                        <p> </p>
+                        <h5 class="text-black">Descripción:</h5>
+                        <p class="text-black">Cancha de atletismo ideal para todo tipo de deportes atleticos <br> Nequi: 3045493037</p>
+                        <h5 class="text-black">Ubicación:</h5>
+                        <p class="text-black">Villa Olimpica</p>
+                        
+                        
+                    </div>
+                </article>
+            </aside>
+            <aside class="col-lg-6">
+                <article class="card-banner h-100 fondo">
+                    <div class="card-body">
+                        <h2 class="mt-3 text-black text-center">Formulario de reserva</h2>
+                        <form>
+                            <section class="section-intro pt-3">
+                                <div class="container">
+                                    <div class="row gx-3">
+                                        <aside class="col-lg-6">
+                                            <label class="text-black" for="comboDocumento">Tipo de Documento</label>
+                                            <select class="form-control" id="comboDocumento">
+                                                <option>Tarjeta de identidad</option>
+                                                <option>Cedula de Ciudadania</option>
+                                                <option>Cedula de extranjero</option>
+                                            </select>
+                                            <br>
+                                            <label class="text-black" for="inputNombre">Nombre</label>
+                                            <input type="text" class="form-control" id="inputNombre">
+                                            <br>
+                                            <label class="text-black" for="inputCorreo">Correo</label>
+                                            <input type="email" class="form-control" id="inputCorreo">    
+                                            <br>
+                                            <label class="text-black" for="inputHoras">Horas</label>
+                                            <input type="number" min="1" max="8" class="form-control" id="inputHoras">
+                                            <span id="pagoCancha" class="form-text">
+                                                $50000
+                                              </span>
+
+                                        </aside>
+                                        <aside class="col-lg-6">
+                                            <label class="text-black" for="inputNumeroDocumento">Numero</label>
+                                            <input type="number" class="form-control" id="inputNumeroDocumento">
+                                            <br>
+                                            <label class="text-black" for="inputApellido">Apellido</label>
+                                            <input type="text" class="form-control" id="inputApellido">
+                                            <br>
+                                            <label class="text-black " for="inputTelefono">Telefono</label>
+                                            <input type="tel" class="form-control" id="inputTelefono">
+                                            <br>
+                                            <label class="text-black" for="inputRefPago">Ref de Transacción (Obligatorio)</label>
+                                            <input type="text" class="form-control" id="inputRefPago">
+                                            
+                                        </aside>
+                                        <label class="text-black pt-2" for="inputGroupFile02">Comprobante (Opcional)</label>
+                                        <div class="input-group mb-3">                  
+                                            <input type="file" class="form-control" id="inputGroupFile02">
+                                            <label class="input-group-text" for="inputGroupFile02">Upload</label>
+                                          </div>
+                                        <div class="d-flex justify-content-between mt-3">
+                                            <button type="button"  class="btn btn-danger" [routerLink]="['/Quejas o Reclamos']" >Quejas o reclamos</button>
+                                            <button type="button" class="btn btnm text-white">
+                                                Enviar <i class="fas fa-long-arrow-alt-right ms-1"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </form>
+                    </div>
+                </article>
+            </aside>
+        </div> <!-- row //end -->
+    </div> <!-- container end.// -->
+</section>
+
+<section class="section-intro pt-3">
+    <div class="container">
+        <div class="row gx-3">
+            <aside class="col-lg-12">
+                <article class="card-banner p-5 fondo text-black">
+                    <img class="rounded-circle shadow-1-strong me-3"
+                        src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(21).webp" alt="avatar" width="65"
+                        height="65" />
+                    <div class="w-100">
+                        <h5 class="text-black">Agrega un comentario</h5>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                <label class="form-check-label" for="inlineRadio1">1</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                <label class="form-check-label" for="inlineRadio2">2</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                <label class="form-check-label" for="inlineRadio1">3</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                <label class="form-check-label" for="inlineRadio2">4</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                <label class="form-check-label" for="inlineRadio1">5</label>
+                              </div>
+                  
+                        <aside class="col-lg-2 py-1">
+                            <label class="text-black" for="inputNombreComentario">Nombre</label>
+                            <input type="text" class="form-control" id="inputNombreComentario">
+                        </aside>
+                        <div class="form-outline">
+                            <textarea class="form-control" id="textAreaExample" rows="4"
+                                placeholder="Comparte aquí tu opión..."></textarea>
+                            <label class="form-label" for="textAreaExample">Tu opinión es importante</label>
+                        </div>
+                        <div class="d-flex justify-content-between mt-3">
+                            <button type="button"  class="btn btn-danger" [routerLink]="['/Quejas o Reclamos']" >Quejas o reclamos</button>
+                            <button type="button" class="btn btnm text-white">
+                                Enviar <i class="fas fa-long-arrow-alt-right ms-1"></i>
+                            </button>
+                        </div>
+                    </div>
+                </article>
+            </aside>
+        </div>
+    </div>
+</section>
+
+<section class="section-intro pt-1 py-3">
+    <div class="container">
+        <div class="row gx-3">
+            <aside class="col-lg-12">
+                <article class="card-banner p-5 fondo">
+                    <div class="w-100">
+                        <div class="form-outline pt-2 py-2">
+                            <div class="card">
+                                <div class="card-body">
+                                    <p>La mejor cancha de atletismo que hay en el cesár</p>
+                                    <div class="d-flex justify-content-between">
+                                        <div class="d-flex flex-row align-items-center">
+                                            <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(4).webp"
+                                                alt="avatar" width="25" height="25" />
+                                            <p class="small mb-0 ms-2">Martha</p>
+                                        </div>
+                                        <div class="d-flex flex-row align-items-center">
+                                            <p class="small text-muted mb-0">Puntuación</p>
+                                            <i class="far fa-thumbs-up mx-2 fa-xs text-black"
+                                                style="margin-top: -0.16rem;"></i>
+                                            <p class="small text-muted mb-0">5</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-outline pt-2 py-2">
+                            <div class="card">
+                                <div class="card-body">
+                                    <p>De mis canchas favoritas para practicar</p>
+                                    <div class="d-flex justify-content-between">
+                                        <div class="d-flex flex-row align-items-center">
+                                            <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp"
+                                                alt="avatar" width="25" height="25" />
+                                            <p class="small mb-0 ms-2">John</p>
+                                        </div>
+                                        <div class="d-flex flex-row align-items-center">
+                                            <p class="small text-muted mb-0">Puntuación</p>
+                                            <i class="far fa-thumbs-up mx-2 fa-xs text-black"
+                                                style="margin-top: -0.16rem;"></i>
+                                            <p class="small text-muted mb-0">5</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </aside>
+        </div>
+    </div>
+</section>
+<app-footer></app-footer>
